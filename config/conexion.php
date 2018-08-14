@@ -13,7 +13,7 @@ class Conectar
 
         try {
 
-            $conectar = $this->dbh = new PDO("mysql:167.99.152.149=localhost;dbname=citasmedicas", "root", "w1234567890d");
+            $conectar = $this->dbh = new PDO("mysql:host=167.99.152.149;dbname=citasmedicas", "root", "w1234567890d");
 
             return $conectar;
 
