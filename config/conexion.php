@@ -29,7 +29,7 @@ class Conectar
     public function ruta()
     {
 
-        return "http://167.99.152.149:8080/citas/";
+        return "http://167.99.152.149:8000/citas/";
     }
 
 
